@@ -18,26 +18,19 @@ public class BoardDaoImpl implements BoardDao {
 	public List<BoardMaster> list() {
 		return sql.selectList("board_master.list");
 	}
-	
-
 
 	@Override
 	public void add(BoardMaster item) {
 		sql.insert("board_master.add",item);
-
-
 	}
 
 	@Override
-	public void createBoard(BoardMaster item) {
-		sql.update("board_master.create_board", item);
-
-
+	public void createBoard(int board_id) {
+		sql.update("board_master.create_board", board_id);
 	}
 
 	@Override
 	public BoardMaster item(int board_id) {
-
 		return sql.selectOne("board_master.item", board_id);
 	}
 
@@ -51,17 +44,44 @@ public class BoardDaoImpl implements BoardDao {
 	@Override
 	public void delete(int board_id) {
 		sql.delete("board_master.delete", board_id);
-
-
 	}
 
 	@Override
 	public void removeBoard(int board_id) {
 		sql.update("board_master.remove_board", board_id);
+	}
 
-
+	@Override
+	public void createSeq(int board_id) {
+		sql.update("board_master.create_seq", board_id);	
 	}
 
 
+	@Override
+	public void createReply(int board_id) {
+		sql.update("board_master.create_reply", board_id);	
+	}
+
+	
+	@Override
+	public void createReplySeq(int boardId) {
+		sql.update("board_master.create_reply_seq", boardId);
+	}
+
+	@Override
+	public void removeSeq(int board_id) {
+		sql.update("board_master.remove_seq", board_id);
+	}
+
+	@Override
+	public void removeReply(int board_id) {	
+		sql.update("board_master.remove_reply", board_id);
+	}
+
+	@Override
+	public void removeReplySeq(int board_id) {
+		sql.update("board_master.remove_reply_seq", board_id);
+	
+	}
 
 }

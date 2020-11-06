@@ -42,7 +42,7 @@
 				<td>${item.replyType}</td>
 				<td>${item.readPerm}</td>
 				<td>${item.writePerm}</td>
-				<td><a href="delete/${item.boardId}">삭제</a><a href="update/${item.boardId}">변경</a></td>
+				<td><a href="article/${item.boardId}/list">관리</a> <a href="delete/${item.boardId}">삭제</a><a href="update/${item.boardId}">변경</a></td>
 			</tr>
 			</c:forEach>
 		</tbody>

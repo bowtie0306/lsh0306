@@ -3,11 +3,11 @@ package kr.ac.kopo.polycms.model;
 import java.util.Date;
 
 public class BoardMaster {
-	long boardId;
-	public long getBoardId() {
+	int boardId;
+	public int getBoardId() {
 		return boardId;
 	}
-	public void setBoardId(long boardId) {
+	public void setBoardId(int boardId) {
 		this.boardId = boardId;
 	}
 	public String getBoardName() {

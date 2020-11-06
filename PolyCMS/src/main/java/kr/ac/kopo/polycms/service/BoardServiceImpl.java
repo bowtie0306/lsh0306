@@ -24,7 +24,13 @@ public class BoardServiceImpl implements BoardService {
 	public void add(BoardMaster item) {
 		dao.add(item);
 		
-		dao.createBoard(item);
+		dao.createBoard(item.getBoardId());
+		
+		dao.createSeq(item.getBoardId());
+		
+		dao.createReply(item.getBoardId());
+		
+		dao.createReplySeq(item.getBoardId());
 
 	}
 
@@ -44,6 +50,12 @@ public class BoardServiceImpl implements BoardService {
 		dao.delete(board_id);
 		
 		dao.removeBoard(board_id);
+		
+		dao.removeSeq(board_id);
+		
+		dao.removeReply(board_id);
+		
+		dao.removeReplySeq(board_id);
 
 
 	}
