@@ -1,0 +1,61 @@
+
+10월 12, 2020 13:33:15.358 NEW SESSION
+10월 12, 2020 13:33:15.359 [412:10752:1012/133315.349:ERROR:media_history_store.cc(363)] Failed to create or update the media history store.
+10월 12, 2020 13:33:22.608 [412:9000:1012/133322.608:ERROR:device_event_log_impl.cc(208)] [13:33:22.608] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+
+10월 16, 2020 09:15:45.309 NEW SESSION
+10월 16, 2020 09:15:45.309 [8868:6644:1016/091545.307:ERROR:media_history_store.cc(363)] Failed to create or update the media history store.
+10월 16, 2020 09:15:51.266 [8868:6716:1016/091551.266:ERROR:device_event_log_impl.cc(208)] [09:15:51.265] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+
+10월 16, 2020 16:04:45.433 NEW SESSION
+10월 16, 2020 16:04:45.433 [856:10212:1016/160445.430:ERROR:media_history_store.cc(376)] Failed to create or update the media history store.
+10월 16, 2020 16:04:54.769 [856:3644:1016/160454.768:ERROR:device_event_log_impl.cc(208)] [16:04:54.769] Bluetooth: bluetooth_adapter_winrt.cc:1076 Getting Default Adapter failed.
+10월 16, 2020 16:14:44.763 [1016/161444.762:ERROR:directory_reader_win.cc(43)] FindFirstFile: 지정된 경로를 찾을 수 없습니다. (0x3)
+
+10월 20, 2020 09:14:10.417 NEW SESSION
+10월 20, 2020 09:14:10.417 [1592:7384:1020/091410.411:ERROR:device_event_log_impl.cc(208)] [09:14:10.411] Bluetooth: bluetooth_adapter_winrt.cc:1076 Getting Default Adapter failed.
+10월 20, 2020 09:24:01.530 [1020/092401.529:ERROR:directory_reader_win.cc(43)] FindFirstFile: 지정된 경로를 찾을 수 없습니다. (0x3)
+10월 20, 2020 17:00:51.64 [6280:7520:1020/170051.064:ERROR:device_event_log_impl.cc(208)] [17:00:51.063] Bluetooth: bluetooth_adapter_winrt.cc:1076 Getting Default Adapter failed.
+10월 20, 2020 17:10:38.615 [1020/171038.613:ERROR:directory_reader_win.cc(43)] FindFirstFile: 지정된 경로를 찾을 수 없습니다. (0x3)
+
+10월 21, 2020 09:16:20.520 NEW SESSION
+10월 21, 2020 09:16:20.520 [3296:4052:1021/091620.520:ERROR:device_event_log_impl.cc(208)] [09:16:20.514] Bluetooth: bluetooth_adapter_winrt.cc:1076 Getting Default Adapter failed.
+10월 21, 2020 09:26:15.525 [1021/092615.525:ERROR:directory_reader_win.cc(43)] FindFirstFile: 지정된 경로를 찾을 수 없습니다. (0x3)
+
+10월 22, 2020 15:30:01.109 NEW SESSION
+10월 22, 2020 15:30:01.109 [6760:9536:1022/153001.107:ERROR:device_event_log_impl.cc(208)] [15:30:01.107] Bluetooth: bluetooth_adapter_winrt.cc:1076 Getting Default Adapter failed.
+10월 22, 2020 15:39:55.818 [1022/153955.817:ERROR:directory_reader_win.cc(43)] FindFirstFile: 지정된 경로를 찾을 수 없습니다. (0x3)
+
+10월 23, 2020 13:39:08.894 NEW SESSION
+10월 23, 2020 13:39:08.894 [14004:13544:1023/133908.878:ERROR:device_event_log_impl.cc(208)] [13:39:08.889] Bluetooth: bluetooth_adapter_winrt.cc:1076 Getting Default Adapter failed.
+10월 23, 2020 13:40:38.528 [14092:15596:1023/134038.528:ERROR:device_event_log_impl.cc(208)] [13:40:38.528] Bluetooth: bluetooth_adapter_winrt.cc:1076 Getting Default Adapter failed.
+10월 23, 2020 13:50:29.22 [1023/135029.022:ERROR:directory_reader_win.cc(43)] FindFirstFile: 지정된 경로를 찾을 수 없습니다. (0x3)
+
+11월 03, 2020 17:15:02.435 NEW SESSION
+11월 03, 2020 17:15:02.435 [3356:13820:1103/171502.425:ERROR:device_event_log_impl.cc(208)] [17:15:02.425] Bluetooth: bluetooth_adapter_winrt.cc:1076 Getting Default Adapter failed.
+
+11월 04, 2020 14:05:12.532 NEW SESSION
+11월 04, 2020 14:05:12.533 [16296:17296:1104/140512.527:ERROR:device_event_log_impl.cc(208)] [14:05:12.528] Bluetooth: bluetooth_adapter_winrt.cc:1076 Getting Default Adapter failed.
+11월 04, 2020 14:15:09.987 [1104/141509.985:ERROR:directory_reader_win.cc(43)] FindFirstFile: 지정된 경로를 찾을 수 없습니다. (0x3)
+
+11월 06, 2020 13:09:26.76 NEW SESSION
+11월 06, 2020 13:09:26.76 [16492:13272:1106/130926.075:ERROR:device_event_log_impl.cc(208)] [13:09:26.074] Bluetooth: bluetooth_adapter_winrt.cc:1076 Getting Default Adapter failed.
+11월 06, 2020 13:19:21.419 [1106/131921.417:ERROR:directory_reader_win.cc(43)] FindFirstFile: 지정된 경로를 찾을 수 없습니다. (0x3)
+11월 06, 2020 14:32:31.901 [16492:13272:1106/143231.901:ERROR:CONSOLE(0)] "TypeError: Cannot read property 'isAnonymousInlineStyleSheet' of null", source:  (0)
+11월 06, 2020 14:32:32.666 [16492:13272:1106/143232.666:ERROR:CONSOLE(0)] "TypeError: Cannot read property 'isAnonymousInlineStyleSheet' of null", source:  (0)
+11월 06, 2020 14:36:45.952 [16492:13272:1106/143645.951:ERROR:CONSOLE(0)] "TypeError: Cannot read property 'isAnonymousInlineStyleSheet' of null", source:  (0)
+11월 06, 2020 14:36:46.125 [16492:13272:1106/143646.125:ERROR:CONSOLE(0)] "TypeError: Cannot read property 'isAnonymousInlineStyleSheet' of null", source:  (0)
+11월 06, 2020 14:36:46.312 [16492:13272:1106/143646.311:ERROR:CONSOLE(0)] "TypeError: Cannot read property 'isAnonymousInlineStyleSheet' of null", source:  (0)
+11월 06, 2020 14:36:46.671 [16492:13272:1106/143646.670:ERROR:CONSOLE(0)] "TypeError: Cannot read property 'isAnonymousInlineStyleSheet' of null", source:  (0)
+11월 06, 2020 14:49:51.694 [16492:13272:1106/144951.693:ERROR:CONSOLE(0)] "TypeError: Cannot read property 'isAnonymousInlineStyleSheet' of null", source:  (0)
+11월 06, 2020 14:54:59.674 [16492:13272:1106/145459.674:ERROR:CONSOLE(0)] "TypeError: Cannot read property 'isAnonymousInlineStyleSheet' of null", source:  (0)
+
+11월 13, 2020 14:02:16.672 NEW SESSION
+11월 13, 2020 14:02:16.672 [8428:13468:1113/140216.654:ERROR:device_event_log_impl.cc(208)] [14:02:16.653] Bluetooth: bluetooth_adapter_winrt.cc:1076 Getting Default Adapter failed.
+
+11월 13, 2020 14:15:40.16 NEW SESSION
+11월 13, 2020 14:15:40.16 [19080:8220:1113/141540.014:ERROR:device_event_log_impl.cc(208)] [14:15:40.014] Bluetooth: bluetooth_adapter_winrt.cc:1076 Getting Default Adapter failed.
+11월 13, 2020 14:22:33.945 [6440:14632:1113/142233.945:ERROR:device_event_log_impl.cc(208)] [14:22:33.944] Bluetooth: bluetooth_adapter_winrt.cc:1076 Getting Default Adapter failed.
+11월 13, 2020 14:32:24.402 [1113/143224.400:ERROR:directory_reader_win.cc(43)] FindFirstFile: 지정된 경로를 찾을 수 없습니다. (0x3)
+11월 13, 2020 15:11:04.998 [13096:13180:1113/151104.997:ERROR:device_event_log_impl.cc(208)] [15:11:04.997] Bluetooth: bluetooth_adapter_winrt.cc:1076 Getting Default Adapter failed.
+11월 13, 2020 15:21:03.402 [1113/152103.400:ERROR:directory_reader_win.cc(43)] FindFirstFile: 지정된 경로를 찾을 수 없습니다. (0x3)

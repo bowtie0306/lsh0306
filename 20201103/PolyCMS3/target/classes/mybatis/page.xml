@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="page">
+	<sql id="search">
+		SELECT * 
+		FROM page_master
+	</sql>
+	
+	<select id="total" resultType="Integer">
+		SELECT COUNT(*)
+		FROM (<include refid="search"></include>) sub
+	</select>
+	
+	<select id="list" resultType="Page">
+		SELECT * FROM
+			(SELECT ROWNUM rnum, sub.* 
+			FROM (<include refid="search"></include>) sub)
+			<![CDATA[
+			WHERE rnum > ((#{page} - 1) * #{perPage}) AND rnum <= (#{page} * #{perPage})
+			]]>
+	</select>
+	
+	<insert id="add">
+		INSERT INTO page_master
+		(uri, page_name)
+		VALUES (#{uri}, #{pageName})
+	</insert>
+	
+	<update id="update">
+		UPDATE page_master
+		SET page_name=#{pageName}
+		WHERE uri=#{uri}
+	</update>
+	
+	<delete id="delete">
+		DELETE FROM page_master
+		WHERE uri=#{uri}
+	</delete>
+	
+	<select id="item" resultType="Page">
+		SELECT * FROM page_master
+		WHERE uri=#{uri}
+	</select>
+	
+</mapper>

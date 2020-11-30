@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="content">
+	<select id="list" resultType="PageContent">
+		SELECT * 
+		FROM page_content
+	</select>
+	
+	<select id="list_uri" resultType="PageContent">
+		SELECT * 
+		FROM page_content
+		WHERE uri=#{uri}
+	</select>
+	
+	<insert id="add">
+		INSERT INTO page_content
+		(content_id, uri, content_name, content_type, content_key)
+		VALUES (PAGE_CONTENT_SEQ.nextval, #{uri}, #{contentName}, #{contentType}, #{contentKey})
+	</insert>
+	
+	<update id="update">
+		UPDATE page_content
+		SET content_name=#{contentName}, content_type=#{contentType}, content_key=#{contentKey}
+		WHERE content_id=#{contentId}
+	</update>
+	
+	<delete id="delete">
+		DELETE FROM page_content
+		WHERE content_id=#{contentId}
+	</delete>
+	
+	<select id="item" resultType="PageContent">
+		SELECT * FROM page_content
+		WHERE content_id=#{contentId}
+	</select>
+	
+</mapper>
